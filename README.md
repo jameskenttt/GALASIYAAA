@@ -19,15 +19,15 @@ Galasiya Mobile Travel App.
 * HTML, CSS and JS
 
 # Home Screen
-<img src="assets/images/screenshot/home.jpg">  
+<img src="assets/images/home.jpg">  
 
 # Sign Up Screen
-<img src="assets/images/screenshot/signup.jpg">  
+<img src="assets/images/signup.jpg">  
 
 # Sign In Screen
-<img src="assets/images/screenshot/login.jpg">  
+<img src="assets/images/login.jpg">  
 
 # Welcome Screen
-<img src="assets/images/screenshot/welcome.jpg">  
+<img src="assets/images/welcome.jpg">  
 
 # Walkthrough
