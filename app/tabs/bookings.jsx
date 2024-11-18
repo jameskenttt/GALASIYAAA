@@ -2,11 +2,11 @@ import React from 'react';
 import { View, Text, ScrollView, TouchableOpacity, Image } from 'react-native';
 import { Link } from 'expo-router'; 
 
-const Home = () => {
+const Bookings = () => {
   return (
     <View className="flex-1 bg-gray-100">
       <ScrollView className="flex-1 p-4">
-        <Text className="text-2xl font-bold mb-4">Explore</Text>
+        <Text className="text-2xl font-bold mb-4">Your Bookings</Text>
 
         <View className="grid grid-cols-2 gap-4 mb-4">
           <TouchableOpacity className="bg-white p-4 rounded-lg shadow">
@@ -55,4 +55,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Bookings;

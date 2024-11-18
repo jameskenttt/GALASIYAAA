@@ -22,7 +22,7 @@ const SignIn = () => {
                 resizemode='contain'
                 className="w-[300px] h-[50px] "
               />
-              <Text className="text-2xl text-white mt-10 font-u_regular ">Log in to  TechFolioHub</Text>
+              <Text className="text-2xl text-white mt-10 font-u_regular ">Log in to Galasiya</Text>
               <FormField
                   title="Email"
                   value={form.email}

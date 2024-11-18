@@ -22,10 +22,9 @@ export default function App() {
               />
               <View className="relative mt-5">
                   <Text className="text-2xl text-white font-u_bold text-center">
-                    A Display of Student Innovative Portfolio with Audience-Driven Recognition
-                  </Text>
+Explore the World with Us                  </Text>
               </View>
-            <Text className="text-sm, font-j_bold text-gray-100 mt-7 text-center"> Join us, Let's create One Portfolio at a time!
+            <Text className="text-sm, font-j_bold text-gray-100 mt-7 text-center"> Join us, for unforgettable adventures and experiences that enrich your life.
             </Text>
             <CustomButton
               title="Continue with Email"

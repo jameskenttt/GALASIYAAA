@@ -22,11 +22,17 @@ const SignUp = () => {
                 resizemode='contain'
                 className="w-[200px] h-[30px] "
               />
-              <Text className="text-2xl text-white mt-5 font-u_regular ">Sign up to  TechFolioHub</Text>
+              <Text className="text-2xl text-white mt-5 font-u_regular ">Create Your Account</Text>
               <FormField
-                  title="Username"
+                  title="Firstname"
                   value={form.username}
-                  handleChangeText={(e) => setForm({ ...form, username: e })}
+                  handleChangeText={(e) => setForm({ ...form, firstname: e })}
+                  otherStyles="mt-5"
+              />
+               <FormField
+                  title="Lastname"
+                  value={form.username}
+                  handleChangeText={(e) => setForm({ ...form, lastname: e })}
                   otherStyles="mt-5"
               />
              <FormField
@@ -40,6 +46,12 @@ const SignUp = () => {
                   title="Password"
                   value={form.password}
                   handleChangeText={(e) => setForm({ ...form, password: e })}
+                  otherStyles="mt-5"
+              />
+               <FormField
+                  title="Confirmpassword"
+                  value={form.username}
+                  handleChangeText={(e) => setForm({ ...form, confirmpassword: e })}
                   otherStyles="mt-5"
               />
               <CustomButton
